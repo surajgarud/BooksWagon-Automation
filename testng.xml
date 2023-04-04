@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.BW.qa.Listener.Listener"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.BW.qa.testcases.SignUpTest"/>
+      <class name="com.BW.qa.testcases.AddToWishlistTest"/>
+      <class name="com.BW.qa.testcases.OrderBookTest"/>
+      <class name="com.BW.qa.testcases.LoginTest"/>
+      <class name="com.BW.qa.testcases.ForgetPassTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
